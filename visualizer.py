@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import plotly.express as px
+
 
 st.set_page_config(page_title="Sales Dashboard", layout="wide")
 
@@ -38,3 +38,4 @@ with col2:
 
 st.subheader("Raw Data")
 st.dataframe(filtered_df)
+
